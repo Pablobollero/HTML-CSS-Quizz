@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Head Section: Contains meta tags for character set, viewport, description, and links to the stylesheet (styles.css) -->
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
+    <!-- Header Section: Includes the main heading and navigation menu with links to different sections of the quiz -->
     <header>
         <h1>HTML/CSS Quiz</h1>
         <nav>
@@ -18,6 +20,7 @@
             </ul>
         </nav>
     </header>
+    <!-- Student Info Section: A form section for student information input, including name, email, and date of birth -->
     <main>
         <form method="post" action="#">
             <section role="region" aria-labelledby="student-info">
@@ -35,6 +38,7 @@
                     <input type="date" name="birth-date" id="birth-date" />
                 </div>
             </section>
+            <!-- HTML Questions Section: Contains questions related to HTML concepts, presented in a structured format with radio button options -->
             <section role="region" aria-labelledby="html-questions">
                 <h2 id="html-questions">HTML</h2>
                 <div class="question-block">
@@ -84,6 +88,7 @@
                     </fieldset>
                 </div>
             </section>
+            <!-- CSS Questions Section: This section includes questions about CSS with different types of input elements like dropdown and textarea -->
             <section role="region" aria-labelledby="css-questions">
                 <h2 id="css-questions">CSS</h2>
                 <div class="formrow">
@@ -109,6 +114,7 @@
             <button type="submit">Send</button>
         </form>
     </main>
+    <!-- Footer Section: Provides contact and address information, with a link to the freeCodeCamp website -->
     <footer>
         <address>
             <a href="https://freecodecamp.org" rel="noopener">freeCodeCamp</a><br />
