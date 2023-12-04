@@ -6,11 +6,11 @@ This webpage serves as an interactive quiz focused on HTML/CSS knowledge, design
 
 ## Learning
 
-In the creation of this webpage, the following techniques and features were likely employed:
-- CSS styling for layout, visual design, and responsiveness.
-- Consideration for reduced motion preferences of users.
-- Semantic HTML5 elements for structured content (based on common practices, not directly observed).
-- Accessibility considerations, such as keyboard navigation and screen reader support (assuming based on standard practices, not directly observed).
+In the process of creating this webpage, the following techniques and features were employed:
+- Effective use of semantic HTML5 elements to structure the content logically.
+- Implementation of ARIA roles and properties to enhance accessibility.
+- CSS styling for visual appeal and to provide a responsive layout.
+- Accessibility considerations, such as keyboard navigation and screen reader support.
 
 ## Overview
 
